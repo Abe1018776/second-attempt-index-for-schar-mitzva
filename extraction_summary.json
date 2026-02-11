@@ -1,0 +1,21 @@
+{
+  "extraction_time": 737.7991178035736,
+  "total_pages": 84,
+  "success_count": 75,
+  "failed_count": 9,
+  "failed_pages": [
+    42,
+    63,
+    66,
+    70,
+    71,
+    72,
+    86,
+    89,
+    97
+  ],
+  "total_sources": 550,
+  "total_subchapters": 431,
+  "model": "google/gemini-3-pro-preview",
+  "timestamp": "2026-02-11 23:19:28 UTC"
+}
