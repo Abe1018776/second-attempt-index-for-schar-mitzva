@@ -1,0 +1,499 @@
+{
+  "total_pages": 84,
+  "verified_pages": 84,
+  "failed_pages": [],
+  "average_score": 83.8,
+  "source_count_matches": 50,
+  "pages_with_missing": 30,
+  "pages_with_extra": 3,
+  "pages_with_citation_errors": 20,
+  "score_distribution": {
+    "90-100": 34,
+    "80-89": 36,
+    "70-79": 7,
+    "60-69": 3,
+    "<60": 4
+  },
+  "issue_pages": [
+    {
+      "page": 56,
+      "score": 85,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Section יא, the citation is extracted as '(עין יעקב מבואר ברכות קפח)', but the image clearly shows '(עין יעקב מבואר ברכות יז)'."
+      ],
+      "assessment": "The extraction correctly identifies all sections and structure, but suffers from a significant citation OCR error and a truncated sentence in the body text."
+    },
+    {
+      "page": 29,
+      "score": 80,
+      "missing": [
+        "The first source block in the top-left column is missing: 'מקור המצוה: דאף דשכר מצוה בהאי עלמא ליכא... (נועם מגדים אחרי)'."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed one complete source at the top of the page and truncated the text of two other sources."
+    },
+    {
+      "page": 33,
+      "score": 95,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Section י (10), the citation in the image is '(ומגדלות מרקחים, ויקהל)', but the extraction omits the first word, showing only '(מרקחים, ויקהל)'."
+      ],
+      "assessment": "The extraction is highly accurate, with only one minor text substitution and one incomplete citation title."
+    },
+    {
+      "page": 28,
+      "score": 80,
+      "missing": [
+        "The text block at the top left of the page is missing: 'כרת בביטולה שפיר מגיע עליהם שכר בעוה\"ז כקיומן. (תבואות שור ב\"ב ט)'"
+      ],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter ז (second source), the book name 'ירבה תורה' was incorrectly included in the source text body instead of the citation. The image shows '(ירבה תורה ואתחנן)' as the citation."
+      ],
+      "assessment": "The extraction missed the first source snippet at the top of the page and contained a few transcription errors in the text and citation formatting."
+    },
+    {
+      "page": 90,
+      "score": 85,
+      "missing": [
+        "The first source block in the top-left column is missing. It starts with 'מקור המצוה: הטעם דשכר מצוה בהאי עלמא ליכא...' and ends with the citation '(ואת לרבות, בחוקותי, בשם נחלת צבי)'."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed the first source on the page (top-left), but correctly identified and transcribed the remaining 7 sources."
+    },
+    {
+      "page": 66,
+      "score": 85,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter 18 (Source 3), the citation in the image is '(רוח חיי עולם)', but the extraction lists '((ורוח חיים עולם))' (incorrectly adding a 'vav' and changing 'chayei' to 'chayim')."
+      ],
+      "assessment": "The extraction correctly identifies all structural elements and sources, but the Hebrew text contains multiple OCR typos requiring correction."
+    },
+    {
+      "page": 98,
+      "score": 70,
+      "missing": [
+        "The text block at the top right of the page is missing: 'כפול גם בעוה\"ז וכו'. (בית אהרן, עקב, בשם פנים יפות)'."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed the first source snippet at the top of the page and contains multiple word-level transcription errors in the main text."
+    },
+    {
+      "page": 87,
+      "score": 98,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "Item קמד: Citation in image starts with 'וילקוט' (and Yalkut), extraction omitted the prefix 'Vav' ('ילקוט').",
+        "Item קמה: Citation in image starts with 'וסדר' (and Seder), extraction omitted the prefix 'Vav' ('סדר')."
+      ],
+      "assessment": "The extraction is nearly perfect, with only two very minor omissions of the prefix letter 'Vav' in citations. The page number in the image is 88 (פח), not 87 as stated in the prompt."
+    },
+    {
+      "page": 82,
+      "score": 80,
+      "missing": [],
+      "extra": [
+        "Section קיד: The extraction includes a citation '(אגדה)' which does not appear in the image. The text for this section ends without a parenthetical citation."
+      ],
+      "citation_errors": [
+        "Section קיב: The citation in the image is '(זכר חיים פ' ויקהל)', but was extracted as '(חיים פי ויקהל)' (missing the word 'זכר')."
+      ],
+      "assessment": "The extraction is mostly accurate but contains a phantom citation for the last section, a missing word in another citation, and a few specific character recognition errors in the main text."
+    },
+    {
+      "page": 73,
+      "score": 80,
+      "missing": [
+        "The first text block at the top left of the page is completely missing. It starts with 'לשיעסוק בתורה, כשהוא קטן אומר לו...' and ends with the citation '(תולדות יצחק בחוקותי)'."
+      ],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter נח, citation is extracted as '(טל השמים עקב)' but image shows '(וטל השמים עקב)'.",
+        "In Subchapter ס, first citation is extracted as '(טל השמים עקב)' but image shows '(וטל השמים עקב)'."
+      ],
+      "assessment": "The extraction missed one complete source paragraph at the top of the page and contains several OCR errors (confusing צ with ל/ס) and truncation in the first source of Subchapter סא."
+    },
+    {
+      "page": 48,
+      "score": 70,
+      "missing": [
+        "The source at the top left of the page: 'והקרן קיימת לו לעוה\"ב. ובית אברהם (השמטות ויצא)' is missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed one source entirely and significantly truncated the text of two other sources, though the structure and citations for the extracted portions are generally correct."
+    },
+    {
+      "page": 58,
+      "score": 85,
+      "missing": [
+        "Top right snippet: 'להעשות אם לא שיש לו כל צרכי עוה\"ז. (ובאהלי ישכר פ' לך)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is accurate for the six main subchapters but completely missed the first source snippet located at the top right of the page."
+    },
+    {
+      "page": 95,
+      "score": 80,
+      "missing": [
+        "Top left text block: 'שנאמר בהם יהרג ואל יעבור וכו' ע\"ז משלמים בהאי עלמא. (מרדכי בשער המלך, פנחס.)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed the source fragment at the top left, misplaced the 'כולל' section header, contained a typo in a title, and truncated the text of two subchapters."
+    },
+    {
+      "page": 79,
+      "score": 90,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter צד (Source 5), the citation is extracted as '(מגדלות מרקחים...)' but appears in the image as '(ומגדלות מרקחים...)'."
+      ],
+      "assessment": "The extraction is structurally perfect but contains minor text discrepancies and truncations."
+    },
+    {
+      "page": 35,
+      "score": 70,
+      "missing": [
+        "Top Left Column text starting 'במה שהז\"ג...' with citation (ובירורי השיטות בשם המקנה, קידושין לד.)",
+        "Top Left Column text starting 'באלו המצות...' with citation (שו\"ת קנאת סופרים סימן צ\"ה ובשו\"ת שנות חיים קכ\"ג)"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction correctly identifies the subchapters and handles the complex layout (Left->Right column flow) for Subchapter 23, but fails to extract the first section of text on the page (top left), resulting in two missing sources."
+    },
+    {
+      "page": 39,
+      "score": 85,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Section מה, the word 'ברותים' is included in the citation field '(ברותים, בחוקותי)'. In the image, 'ברותים' appears to be the final word of the main text (completing the verse 'רהיטנו ברותים'), and the citation is likely just '(בחוקותי)'."
+      ],
+      "assessment": "The extraction correctly identifies the structure and sources, but contains a few specific OCR typos and truncates the end of the first section's text."
+    },
+    {
+      "page": 50,
+      "score": 90,
+      "missing": [
+        "The text block at the top right of the page is missing: 'לת\"ח עניים וכו' מגיע עבורה גם שכר בעוה\"ז. (אגדות מהרי\"ט שבת דף רנ\"ד)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is high quality but missed one source snippet located at the very top right of the page."
+    },
+    {
+      "page": 51,
+      "score": 90,
+      "missing": [
+        "The text block at the top left of the page, which is the conclusion of a source from the previous page, is missing. Text: 'שכרו גדול, אשר והריקותי לכם ברכה עד בלי די.', Citation: '(דברי שאול על אגדות הש\"ס גיטין ז)'."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is excellent for the main content (subchapters קיט-קכה) but omitted the orphan text block at the top left which concludes a source from the previous page."
+    },
+    {
+      "page": 23,
+      "score": 85,
+      "missing": [
+        "The text block at the top left of the page, starting with 'נראה כי הוא איש ירא אלקים...' and ending with citation '(יריעות שלמה דרוש ח\"י)', is missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is very accurate for the content it includes, correctly navigating the complex column layout, but it failed to extract the first text block on the page (top left) and the top center header."
+    },
+    {
+      "page": 62,
+      "score": 80,
+      "missing": [
+        "The text block at the top right of the page, ending with the citation '(בית אברהם פ' תצא)', is missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is textually accurate for the items it includes and handles the column flow well, but it misses the first source fragment on the page and misplaces a section header."
+    },
+    {
+      "page": 43,
+      "score": 85,
+      "missing": [
+        "The text block at the very top of the left column is missing. Text: 'יותר טוב משאר מ\"ע כיון שעל זה יש שכר בעוה\"ז.' Citation: '(עצי חיים, לך)'. This segment logically follows subchapter עב and precedes עג."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is generally accurate but missed one distinct source block at the top of the left column and contains minor transcription typos."
+    },
+    {
+      "page": 81,
+      "score": 85,
+      "missing": [
+        "The text at the top right of the page (continuation of previous subchapter) is missing: 'להם השכר ממילא שפיר בעוה\"ז. (בית נפתלי פנחס)'"
+      ],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter קח, the citation '(שבע טאלטשאווא...)' is missing the word 'באר'. It should be '(באר שבע טאלטשאווא...)'."
+      ],
+      "assessment": "The extraction is high quality but misses one partial source at the top of the page and has a minor citation transcription error."
+    },
+    {
+      "page": 24,
+      "score": 40,
+      "missing": [
+        "Top right paragraph starting 'והנה השכר...' with citation (מהרי\"א תצא)",
+        "Right column paragraph starting 'יש הרבה מצות...' with citation (ויחי יוסף בחוקותי)"
+      ],
+      "extra": [],
+      "citation_errors": [
+        "Citation (ויחי יוסף בחוקותי) is incorrectly attributed to Subchapter טו; it actually belongs to the text block above Subchapter יג in the right column"
+      ],
+      "assessment": "The extraction is incomplete, missing the top section of the page and consequently misattributing a citation."
+    },
+    {
+      "page": 52,
+      "score": 85,
+      "missing": [
+        "The text block at the top left of the page is missing. It begins with 'שכלו באופן אחר חלף העבירות...' and ends with the citation '(אגדות מהרי\"ט שבת דף רנ\"ו)' or similar (looks like קי\"ט or רנ\"ו)."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is accurate for the numbered subchapters but missed the standalone source text at the top left of the page."
+    },
+    {
+      "page": 94,
+      "score": 70,
+      "missing": [
+        "Top right citation: '(דברי תורה ג עה)' is missing.",
+        "Top left citation: '(מאורי אור בשם הרה\"ק ר' דוד אהרן מזאריק זצוק\"ל)' (orphaned at the top of the page) is missing as a distinct entry."
+      ],
+      "extra": [
+        "Item 35 (לה) includes a citation '(מאורי אור בשם הרה\"ק ר' דוד אהרן מזאריק זצוק\"ל)' which does not exist in the image under that item."
+      ],
+      "citation_errors": [
+        "The citation for Item 35 is a hallucination or duplication from Item 33."
+      ],
+      "assessment": "The extraction misses the top section of the page, incorrectly adds a citation to Item 35, and contains significant OCR errors in the first words of paragraphs."
+    },
+    {
+      "page": 97,
+      "score": 80,
+      "missing": [],
+      "extra": [
+        "The text block at the very top of the extraction ('יכלה בבני ישראל... בתורת מתנה...') is a duplicate. The text 'בתורת מתנה...' is actually the conclusion of the third source in Subchapter נא (which spans from the bottom right column to the top left column). The extraction lists this text twice: once as a standalone header and once merged into Subchapter נא.",
+        "The phrase 'יכלה בבני ישראל וכו' ומרדכי בשער המלך, פנחס)' included in the top block is a fragment from the previous page (page 96) and not a distinct source on this page."
+      ],
+      "citation_errors": [],
+      "assessment": "The extraction is generally accurate but suffers from structural confusion regarding the text wrapping from the right column to the left, resulting in a duplicated text block and one significant OCR error in Subchapter נב."
+    },
+    {
+      "page": 86,
+      "score": 85,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "Item קלד: Citation in image is '(ובני משה מטות)', extracted as '(בני משה מטות)' (missing 'Vav').",
+        "Item קלט: Citation in image is '(ובית אשר בחוקותי)', extracted as '(בית אשר בחוקותי)' (missing 'Vav')."
+      ],
+      "assessment": "The extraction successfully handled the complex/broken column layout of the page to correctly pair titles with their sources, but suffered from minor transcription errors (typos, missing letters in citations) and one incomplete sentence."
+    },
+    {
+      "page": 40,
+      "score": 95,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter נא, the citation in the image is '(ואגדות מהרי\"ט עירובין דף של\"ב)', but the extraction omitted the word 'ואגדות'."
+      ],
+      "assessment": "The extraction is excellent, correctly handling the complex layout where the title for section 51 is separated from its text, with only one minor character typo and a slightly incomplete citation."
+    },
+    {
+      "page": 89,
+      "score": 85,
+      "missing": [
+        "Top-left text block: 'מקור המצוה: ונמצא לפי\"ז כל מה שעושה האדם בקבלת על עצמו קודם זמן המצוה זהו נחשב למעשי ידיו ולכן יכול שפיר לבקש שכר עליו. (ואך פרי תבואה בחוקותי)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is accurate for the content included but missed one complete source block located at the top of the left column."
+    },
+    {
+      "page": 101,
+      "score": 65,
+      "missing": [
+        "The text snippet at the top right of the page: 'משלמים בהאי עלמא. (מרדכי בשער המלך, פנחס.)' is completely missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed the first source on the page and failed to capture the second column of text for Subchapter עג, resulting in incomplete content and an incorrect source count."
+    },
+    {
+      "page": 31,
+      "score": 80,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter כג, the book name 'מגדלות מרקחים' is incorrectly placed in the text body rather than the citation field. The citation should be '(מגדלות מרקחים ויקהל)'."
+      ],
+      "assessment": "The extraction correctly identifies all subchapters and citations, but suffers from text truncation in two sections (כד, כז) and word recognition errors in one section (כה)."
+    },
+    {
+      "page": 84,
+      "score": 75,
+      "missing": [
+        "The text block at the top right of the page is missing: 'מ\"מ כבר השיב חמת ד' לכך בדין הוא שיתן לו שכרו. (דברי שאול פנחס)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed one source snippet at the top of the page and cut off the end of the text in the final subchapter (קכו)."
+    },
+    {
+      "page": 32,
+      "score": 20,
+      "missing": [
+        "Subchapter A, 3rd paragraph: 'יכול האדם לפטור עצמו ממצות ציצית...' with citation '(דברי יואל שלח)'",
+        "Subchapter B text body: 'מקור המצוה: ת\"ר איזוהי מ\"ע שהז\"ג...' with citation '(שו\"ת קנאת סופרים...)' (citation appears at top left of page)",
+        "Subchapter C (Gimel) text body: 'מקור המצוה: אפ\"ל במצות תפילין...' with citation '(דברי יואל ח\"א רי\"ג)'",
+        "Subchapter D text body 1: 'מקור המצוה: הזהיר במזוזה...' with citation '(ראה פתחי שערים אות ו')'",
+        "Subchapter D text body 2: 'אלא לכך שהקב\"ה נותן לאדם...' with citation '(ב\"ח יו\"ד רפה)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is severely incomplete, missing 5 out of 7 source blocks and all content for subchapters B, C, and D."
+    },
+    {
+      "page": 75,
+      "score": 80,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter ע, the citation is extracted as '(כרם שלמה בשם הגר\"פ...)' but the image reads '(כרם שלמה בשם הגר\"י גרי\"פ...)'."
+      ],
+      "assessment": "The extraction correctly identifies the structure and sources, including the split text of Subchapter עא, but suffers from significant text truncation in the first item and several OCR typos throughout."
+    },
+    {
+      "page": 65,
+      "score": 85,
+      "missing": [
+        "Top right snippet text: 'מה שהחזיר לנו הקב\"ה. ופני מבין. (בראשית.)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is largely accurate but missed a small source snippet at the top of the page and contains a significant word substitution in Subchapter 14."
+    },
+    {
+      "page": 60,
+      "score": 85,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter לג, the citation is extracted as '(שרגא פייבוש מברעזאן זצוק\"ל)' but the image shows '(שפת אמת להרב הצדיק מו\"ה משולם שרגא פייבוש מברעזאן זצוק\"ל)'. The book title 'שפת אמת' is missing."
+      ],
+      "assessment": "The source count and structure are correct, but there is a significant citation error in Subchapter לג (missing book title) and the text for that source is incomplete, along with a few typos in other sections."
+    },
+    {
+      "page": 45,
+      "score": 80,
+      "missing": [
+        "The text block at the top left of the page (preceding subchapter פב) is missing. It reads: 'שמתנהגים עמו בדרך הנקי שהוא בלא גבול.' with citation '(פני אברהם מסכת שבת פט\"ו)'."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed one source at the top of the page and contains a few specific character substitution errors in the Hebrew text."
+    },
+    {
+      "page": 68,
+      "score": 85,
+      "missing": [
+        "The text block at the top of the right column (continuation from previous page) ending with the citation '(ישמח משה ח\"ב דף ע\"ו)' is missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is generally accurate and correctly reassembles the split text for Subchapter 31, but it omits the unnumbered text block at the top of the page and truncates the end of Subchapter 30."
+    },
+    {
+      "page": 44,
+      "score": 85,
+      "missing": [
+        "Top right column text block containing three citations: (מטה משה), (חיד\"א), and (אגרות משה ח\"ד כא, ברכות המצות בתיקונן). This text appears to be a continuation from the previous page but is present on this page."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is accurate for the main subchapters (77-81) but missed the continuation text at the top of the right column which contains 3 distinct sources."
+    },
+    {
+      "page": 36,
+      "score": 85,
+      "missing": [
+        "The text block at the top of the right column starting with 'דלכן דוקא שכר מצוה...' and ending with the citation '(אך פרי תבואה, פנחס)' is completely missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction missed the first source text block at the top of the page but correctly identified and structured the remaining 6 sources and subchapters."
+    },
+    {
+      "page": 53,
+      "score": 85,
+      "missing": [
+        "Top right text block: 'מקור המצוה: אגרא דבי הילולא מילי וכו' השכר שממתין בעוה\"ז הוא על המילי שמשמח החתן, ומשמח הכלה.' with citation '(יעב\"ץ ברכות ו:)'"
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction is accurate for the identified sections, but it missed one source block located at the top right of the page."
+    },
+    {
+      "page": 83,
+      "score": 85,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "In Subchapter קיט, citation extracted as '(חכמה פנחס)' but image shows '(חכמת פנחס)'."
+      ],
+      "assessment": "The extraction correctly identifies all sections and citations, but suffers from several specific character recognition errors (confusing letters like צ/ל, ת/ח, ד/ל) and some layout duplication at the top of the page."
+    },
+    {
+      "page": 46,
+      "score": 80,
+      "missing": [
+        "The text block at the top left of the page ending with the citation '(פנים יפות לך)' is missing from the extraction."
+      ],
+      "extra": [],
+      "citation_errors": [],
+      "assessment": "The extraction identifies the main subchapters correctly but misses the continuation text at the top of the page and contains recurring text errors replacing 'מצוה' with 'מלוה'."
+    },
+    {
+      "page": 100,
+      "score": 90,
+      "missing": [],
+      "extra": [],
+      "citation_errors": [
+        "Section סז: Citation extracted as '(מרקחים, פסח)' but image shows '(ומגדלות מרקחים, פסח)'."
+      ],
+      "assessment": "The extraction is largely accurate and correctly handles the complex column flow for Section סז, but contains a significant text truncation in that section and a minor typo in Section סו."
+    },
+    {
+      "page": 76,
+      "score": 40,
+      "missing": [
+        "Top right snippet: 'מקור המצוה: אבל מי שעובד הקב\"ה הקב\"ה כל טוב גם בעוה\"ז. (באר מנחם ליקוטים)'",
+        "Second right snippet: 'עוד נ\"ל כי מי שעובד על מנת לקבל פרס... (וכתב סופר פנחס)'"
+      ],
+      "extra": [],
+      "citation_errors": [
+        "Item עז (77): Citation '(באר מנחם ליקוטים)' is incorrect. This citation belongs to the missing top-right snippet. The actual citation for 77 is likely cut off at the bottom of the page.",
+        "Item עז (77): The text 'הקב\"ה כל טוב גס בעוה\"ז' is a mashup. 'הקב\"ה כל טוב' comes from the top-right snippet, while 'גס בעוה\"ז' (actually 'גם בעוה\"ז') is from the top snippet as well, though the text of 77 ends similarly."
+      ],
+      "assessment": ""
+    }
+  ],
+  "timestamp": "2026-02-11 23:43:21 UTC"
+}
